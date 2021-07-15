@@ -24,7 +24,7 @@ int main ()
             }
              
         }
-        if (notification != 2)
+        if (flag != 2)
         {
             cout << "Prime Number found ! : " << the_number << endl;
             //MyFile << the_number << "\n";      //saving numbers to a file

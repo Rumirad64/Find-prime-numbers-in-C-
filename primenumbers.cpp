@@ -7,7 +7,7 @@ int main ()
     // ofstream MyFile("numbers.dat");    //un comment to save numbers to a file
     int the_number = 3; //starting form 3 :(
     double i_double;
-    int notification =0;     //2=hit break
+    int flag =0;     //2=hit break
     cout << "Start \n";
     
     while (true)
@@ -19,7 +19,7 @@ int main ()
             
             if (the_number%i == 0)
             {
-                notification = 2;
+                flag = 2;
                 break; 
             }
              
@@ -28,10 +28,10 @@ int main ()
         {
             cout << "Prime Number found ! : " << the_number << endl;
             //MyFile << the_number << "\n";      //saving numbers to a file
-            notification = 2;
+            flag = 2;
         }
 
-        notification = 0;
+        flag = 0;
         the_number++;
         
     }

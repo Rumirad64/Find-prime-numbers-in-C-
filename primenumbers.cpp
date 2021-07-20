@@ -5,6 +5,7 @@ using namespace std;
 int main ()
 {
     // ofstream MyFile("numbers.dat");    //un comment to save numbers to a file
+    //nethmiiluvuuPana
     int the_number = 3; //starting form 3 :(
     double i_double;
     int flag =0;     //2=hit break
